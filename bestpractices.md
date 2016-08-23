@@ -1,5 +1,5 @@
-# Google Best Pracices
+# Oracle Public Cloud Deployment Guide
 
-This section of the deployment guide covers recommendations for compute, storage, network and more.
+Best practices for deploying DataStax Enterprise (DSE) on Oracle Public Cloud (OPC) are covered [here](./bestpractices.md).
 
-## General
+DSPN also hosts Oracle Public Cloud CLI Orchestration templates that can simplify complex deployments on OPC.  CLI Orchestration templates and instructions on their use are available [here](https://github.com/DSPN/oracle-public-cloud-dse)
