@@ -75,6 +75,6 @@ In your local root or user account of your workstation, please do the followings
 
  At this point, you can execute this command: "./deploy <public ssh-key's full filename> <full filename of the plain-text file storing your OPC password>".  In my own experience, it will take about 25 minutes to provision a cluster comprising four DataStax Enterprise nodes and one OpsCenter instance.  If you can point your web browser to your OpsCenter instance, you should see something like the following picture.
  
- ![Alt](./
+ ![Alt](./DataStax-OpsCenter.png "DataStax OpsCenter")
 
 
