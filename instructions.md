@@ -10,7 +10,7 @@ This document describes the required steps to deploy a DataStax Enterprise (DSE)
 <br>
 
 #### 1. Obtain your Oracle Public Cloud account
-If you do not have an account with OPC, please follow this [here](https://myaccount.cloud.oracle.com/mycloud/faces/trialsignup.jspx?serviceType=IAASMB) to apply for one.
+If you do not have an account with OPC yet, please follow this [here](https://myaccount.cloud.oracle.com/mycloud/faces/trialsignup.jspx?serviceType=IAASMB) to apply for one.
 <br>
 
 #### 2. Set up your workstation with OPC Command Line Tool
