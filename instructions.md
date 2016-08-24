@@ -73,7 +73,11 @@ In your local root or user account of your workstation, please do the followings
  
 #### 5. Run the deploy.sh script to deploy a DSE cluster in your OPC environment
 
- At this point, you can execute this command: "./deploy <public ssh-key's full filename> <full filename of the plain-text file storing your OPC password>".  In my own experience, it will take about 25 minutes to provision a cluster comprising four DataStax Enterprise nodes and one OpsCenter instance.  If you can point your web browser to your OpsCenter instance, you should see something like the following picture.
+ At this point, you can execute this command to deploy your DataStax Enterprise cluster: 
+ 
+  > * "./deploy.sh \<public ssh-key's full filename>\ \<full filename of the plain-text file storing your OPC password>\".  
+ 
+ In my own experience, it will take about 25 minutes to provision a cluster comprising four DataStax Enterprise nodes and one OpsCenter instance.  When all your DataStax OPC instances are all up and running, you can point your web browser to your OpsCenter instance. It should look like the following picture.
  
  ![Alt](./DataStax-OpsCenter.png "DataStax OpsCenter")
 
