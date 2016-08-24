@@ -9,18 +9,18 @@ This document describes the necessary steps to deploy a DataStax Enterprise (DSE
 5. Run the deploy.sh to deploy a DSE cluster in your OPC environment
 <br>
 
-###### 1. Obtain your Oracle Public Cloud account
+#### 1. Obtain your Oracle Public Cloud account
 If you do not have an account with OPC, please follow this [here](https://myaccount.cloud.oracle.com/mycloud/faces/trialsignup.jspx?serviceType=IAASMB) to apply for one.
 <br>
 
-###### 2. Set up your workstation with OPC Command Line Tool
+#### 2. Set up your workstation with OPC Command Line Tool
 With regards to where you want your workstation to be, you have two options.  The first option is to create a local  Oracle Enterprise Linux 6.7 virtual machine on your destktop.  The second option is to create an OEL 6.7 instance in your OPC account.  
         
 Once you got this virtual machine or OPC instance up and running, you can follow this [link](http://docs.oracle.com/cloud/latest/stcomputecs/STCLR/GUID-62B0B2BD-A95F-4F82-B144-8C1DBA8760E9.htm#STCLR-GUID-62B0B2BD-A95F-4F82-B144-8C1DBA8760E9) 
 to set up your Oracle Compute Cloud Service CLI and the required environment variables and files.
 <br>
         
-###### 3. Install DSPN assets on your workstation to provision DSE cluster in OPC
+#### 3. Install DSPN assets on your workstation to provision DSE cluster in OPC
 At this point, you should have your OPC CLI environment variables namely OPC_API, OPC_USER, and a plain-text file storing your OPC account's password all setup already.  For the environment variables, I would highly recommend to store them in your .bash_profile file if you have not done so already.
 
 In your local root or user account of your workstation, please do the followings:
@@ -30,7 +30,7 @@ In your local root or user account of your workstation, please do the followings
  * Run "unzip master.zip" and a directory called "oracle-compute-cloud-dse-master" should be created.
 <br>
 
-###### 4. Update the clusterParameters.json file to reflect your environment settings
+#### 4. Update the clusterParameters.json file to reflect your environment settings
  * cd into ./oracle-compute-cloud-dse-master directory, and you should find a file called clusterParameters.json looks like the following.
 
  ```json
@@ -71,8 +71,10 @@ In your local root or user account of your workstation, please do the followings
  > * securityRules is the name of your security rules used for your DataStax Enterprise cluster deployment.   Our current release does not make use of it.
  <br>
  
-###### 5. Run the deploy.sh script to deploy a DSE cluster in your OPC environment
+#### 5. Run the deploy.sh script to deploy a DSE cluster in your OPC environment
 
- At this point, you can run the deploy.sh as "./deploy <public ssh-key's full filename> <full filename of the plain-text file storing your OPC password>".  In my own experience, it will take about 25 minutes to provision a cluster comprising four DataStax Enterprise nodes and one OpsCenter instance.
+ At this point, you can execute this command: "./deploy <public ssh-key's full filename> <full filename of the plain-text file storing your OPC password>".  In my own experience, it will take about 25 minutes to provision a cluster comprising four DataStax Enterprise nodes and one OpsCenter instance.  If you can point your web browser to your OpsCenter instance, you should see something like the following picture.
+ 
+ ![Alt](./
 
 
