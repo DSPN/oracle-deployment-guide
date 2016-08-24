@@ -1,6 +1,6 @@
 ## Instructions
 
-This document describes the necessary steps to deploy a DataStax Enterprise (DSE) cluster in an Oracle Public Cloud (OPC) environment.  Below is the high level sequence of steps you will need to follow in order to successfully deploy your DSE cluster.
+This document describes the required steps to deploy a DataStax Enterprise (DSE) cluster in an Oracle Public Cloud (OPC) environment.  Below is the high level sequence of steps you will need to follow in order to successfully deploy your DSE cluster.
 
 1. Obtain your Oracle Public Cloud (OPC) account
 2. Set up your workstation with Oracle Compute Cloud Service Command Line Tool
