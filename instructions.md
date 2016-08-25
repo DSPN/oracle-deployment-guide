@@ -37,7 +37,7 @@ In your local root or user account of your workstation, please do the followings
  {
    "locations": { 
     "us1": "https://api-z27.compute.us6.oraclecloud.com/",
-    "us2": "https://api-z27.compute.us6.oraclecloud.com/"
+    "us2": "https://api-z26.compute.us6.oraclecloud.com/"
   },
   "OPC_DOMAIN" : "/Compute-usoracle19809",
   "OPC_USER" : "/Compute-usoracle19809/gilbert.lau@datastax.com",
