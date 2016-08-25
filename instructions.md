@@ -75,7 +75,7 @@ In your local root or user account of your workstation, please do the followings
 
  At this point, you can run our deploy.sh script to deploy your DataStax Enterprise cluster as follows: 
  
-   * "./deploy.sh  \<sshKey>\  \<public ssh-key's full filename>\  \<full filename of the plain-text file storing your OPC password>\".
+   * "./deploy.sh  \<sshKey>  \<public ssh-key's full filename>  \<full filename of the plain-text file storing your OPC password>".
    * For example, "./deploy.sh  dse_opc_key  ~opc/.sshd/dse_opc_key.pub  ~/opc/oracle-compute-cloud-dse-master/pwdFile"
  
  In my own experience, it will take about ~25 minutes to provision a cluster comprising four DataStax Enterprise nodes and one OpsCenter instance.  When all your DataStax OPC instances are all up and running, you can point your web browser to your OpsCenter instance. It should look like the following picture.  Go ahead and have some fun!
