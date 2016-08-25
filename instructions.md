@@ -55,8 +55,8 @@ In your local root or user account of your workstation, please do the followings
 
  * In the clusterParameters.json template, you will need to do the followings:
  
- > * "us1" is a label to decribe your Oracle data center.  You can change it to any name best describes your data center location.
- > * "https://api-z27.compute.us6.oraclecloud.com/" is the API endpoint of your specific OPC data center which is the same value of your OPC_API environment variable. Again, this [link](http://docs.oracle.com/cloud/latest/stcomputecs/STCSA/SendRequests.html) shows you how to find your API endpoint information.  Replace it with your own value.
+  * "us1" is a label to decribe your Oracle data center.  You can change it to any name best describes your data center location.
+  * "https://api-z27.compute.us6.oraclecloud.com/" is the API endpoint of your specific OPC data center which is the same value of your OPC_API environment variable. Again, this [link](http://docs.oracle.com/cloud/latest/stcomputecs/STCSA/SendRequests.html) shows you how to find your API endpoint information.  Replace it with your own value.
  > * "locations" element is a list.  This means you can specify as many data centers as required for your deployment.
  > * OPC_DOMAIN is your OPC's Compute-identity domain.
  > * OPC_USER is of the same value of your OPC_USER environment variable.
