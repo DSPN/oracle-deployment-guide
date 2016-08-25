@@ -41,7 +41,7 @@ In your local root or user account of your workstation, please do the followings
   },
   "OPC_DOMAIN" : "/Compute-usoracle19809",
   "OPC_USER" : "/Compute-usoracle19809/gilbert.lau@datastax.com",
-  "nodeCount" : 1,
+  "nodeCount" : 2,
   "vmType" : "oc4",
   "osImage": "/oracle/public/OL_6.7_3GB-1.3.0-20160411",
   "bootDriveSizeInBytes" : "10737418240",
