@@ -66,7 +66,7 @@ In your local root or user account of your workstation, please do the followings
   * bootDriveSizeInBytes is the size of the boot volumne where you would store your operating system.  In OPC, this is defaulted to a HDD.
   * appDataDriveSizeInBytes is the size of your low latency drive for storing your Cassandra database data.
   * networkPrefix is the prefix you can define for your static IPs' names.
-  * sshKey is the label of your sshkey in your OPC environment.  You can assign any name your want.
+  * sshKey is the label of your sshkey in your OPC environment.  You can assign any name your want.  You will later use this value as the first argument for "deploy.sh" script in step 5 below.
   * securityList is name of your security list used for your DataStax Enterprise cluster deployment.  Our current release will ignore this iput. We use OPC default security list instead.
   * securityRules is the name of your security rules used for your DataStax Enterprise cluster deployment.   Our current release will ignore it since we use OPC default security list.
  <br>
@@ -75,8 +75,8 @@ In your local root or user account of your workstation, please do the followings
 
  At this point, you can run our deploy.sh script to deploy your DataStax Enterprise cluster as follows: 
  
-   * "./deploy.sh \<public ssh-key's full filename>\ \<full filename of the plain-text file storing your OPC password>\".
-   * For example, "./deploy.sh ~opc/.sshd/dse_opc_key.pub ~/opc/oracle-compute-cloud-dse-master/pwdFile"
+   * "./deploy.sh \<sshKey>\ \<public ssh-key's full filename>\ \<full filename of the plain-text file storing your OPC password>\".
+   * For example, "./deploy.sh dse_opc_key ~opc/.sshd/dse_opc_key.pub ~/opc/oracle-compute-cloud-dse-master/pwdFile"
  
  In my own experience, it will take about ~25 minutes to provision a cluster comprising four DataStax Enterprise nodes and one OpsCenter instance.  When all your DataStax OPC instances are all up and running, you can point your web browser to your OpsCenter instance. It should look like the following picture.  Go ahead and have some fun!
  
