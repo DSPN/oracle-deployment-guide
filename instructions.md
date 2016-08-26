@@ -80,6 +80,6 @@ In your local root or user account of your workstation, please do the followings
  
  In my own experience, it will take about ~25 minutes to provision a cluster comprising four DataStax Enterprise nodes and one OpsCenter instance.  When all your DataStax OPC instances are all up and running, you can point your web browser to your OpsCenter instance. It should look like the following picture.  Go ahead and have some fun!
  
- ![Alt](./DataStax-OpsCenter.png "DataStax OpsCenter")
+ ![Alt](./img/DataStax-OpsCenter.png "DataStax OpsCenter")
 
 
