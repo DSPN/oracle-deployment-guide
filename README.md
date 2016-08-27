@@ -1,4 +1,4 @@
-# Oracle Cloud Deployment Guide
+# Oracle Deployment Guide
 
 Best practices for deploying DataStax Enterprise (DSE) on Oracle Public Cloud (OPC) are covered [here](./bestpractices.md).
 
