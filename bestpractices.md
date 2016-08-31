@@ -4,7 +4,7 @@
 
 ## Compute
 
-OPC instances are based on Oracle CPU (OCPU).  Each OCPU is a physical core that is hyperthreaded.  So, one OCPU gives you two virual cores.
+OPC instances are based on Oracle CPU (OCPU).  Each OCPU is a physical core that is hyperthreaded.  So, one OCPU gives you two virtual cores.
 
 ### Recommended Machine Types
 
@@ -28,4 +28,4 @@ We recommend standard storage for OS disks.  We recommend separate data disks th
 
 Currently OPC does not offer availability zones.  Multiple regions are supported.
 
-To create a cross region deployment, each data center must be deployed seperately.
+To create a cross region deployment, each Cassandra data center must be deployed seperately.
