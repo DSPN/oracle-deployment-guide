@@ -1,4 +1,4 @@
-# Best Practices
+# Best Practices for deploying DataStax Enterprise on Oracle Compute Cloud
 
 ## General
 
