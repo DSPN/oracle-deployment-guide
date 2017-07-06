@@ -8,8 +8,8 @@
 
 We recommend the following machine types for running DSE:
 
-* Image: Oracle-Linux-7.2-2016.10.05-0
-* Shape: BM.HighIO1.36
+* Image: Oracle-Linux-7.3-2017.05.23-0
+* Shape: VM.DenseIO1.8 / VM.DenseIO1.16
 
 ## Storage
 
