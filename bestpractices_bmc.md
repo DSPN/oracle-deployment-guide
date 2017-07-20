@@ -19,9 +19,9 @@ We recommend standard storage for OS disks.  We recommend using the above NVMe s
 
 ## Network
 
-Currently, Oracle Bare Metal Cloud Service offers one region namely "us-phoenix-1".  It has three Availability Domains (AD).  
+Currently, Oracle Bare Metal Cloud Service offers two regions namely "us-phoenix-1" and "us-ashburn-1".  It has three Availability Domains (AD) in each region.  
 
-When setting up your own Virtual Cloud Network, we recommend creating a seperate subnet for each availability zone.  This way you can increase service availability if you spread your DSE nodes evenly over three availability domains.
+When setting up your own Virtual Cloud Network, we recommend creating a seperate subnet for each availability domain.  This way you can increase service availability if you spread your DSE nodes evenly over three availability domains.
 
 When defining your security list, you will create necessary security rules to enable access and protect your Bare Metal Cloud Service instances and their workloads.
 
